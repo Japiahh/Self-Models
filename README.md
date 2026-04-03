@@ -43,9 +43,4 @@ After training, the organism is forced into a **"Closed-Loop Dreaming"** phase. 
 ### Reality vs. Dream (3D Stability Test)
 *The following chart demonstrates the model's hallucination (red) successfully wrapping around the actual physics of the chaotic system (black) over an extended period.*
 
-![Lorenz Attractor: Reality vs Dream](./lorenz_reality_vs_dream.png)
-
-### Training Convergence
-*The learning curve illustrating the minimization of Total Free Energy over time.*
-
-![Free Energy Learning Curve](./assets/free_energy_learning_curve.png)
+![Lorenz Attractor: Reality vs Dream](./long_lorenz_dream.png)

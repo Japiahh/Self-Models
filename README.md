@@ -1,8 +1,8 @@
 # Self-Models: Towards Autonomous AI with Meta-Cognition
 
-Welcome to **Self-Models**, an experimental deep learning architecture built with PyTorch. This project explores the intersection of neural networks and cognitive science, drawing heavy inspiration from the **Free Energy Principle** and **Active Inference**. 
+an experimental deep learning architecture built with PyTorch. This project explores the intersection of neural networks and cognitive science, drawing heavy inspiration from the **Free Energy Principle** and **Active Inference**. 
 
-Unlike standard sequence models that merely map inputs to outputs, this project aims to create "organisms"—computational entities designed to build, understand, and predict their own internal states alongside the external world.
+Unlike standard sequence models that merely map inputs to outputs, this project aims to create "organisms" computational entities designed to build, understand, and predict their own internal states alongside the external world.
 
 ## Core Philosophy & Grand Vision
 
@@ -44,14 +44,8 @@ After training, the organism is forced into a **"Closed-Loop Dreaming"** phase. 
 *The following chart demonstrates the model's hallucination (red) successfully wrapping around the actual physics of the chaotic system (black) over an extended period.*
 
 ![Lorenz Attractor: Reality vs Dream](./assets/lorenz_reality_vs_dream.png)
-*(Replace `./assets/lorenz_reality_vs_dream.png` with the actual path to your 3D plot)*
 
 ### Training Convergence
 *The learning curve illustrating the minimization of Total Free Energy over time.*
 
 ![Free Energy Learning Curve](./assets/free_energy_learning_curve.png)
-*(Replace `./assets/free_energy_learning_curve.png` with the actual path to your loss curve plot)*
-
-## Getting Started
-
-*(You can add your installation steps, environment requirements, and run commands here, e.g., `python run_modular_v2.py`)*

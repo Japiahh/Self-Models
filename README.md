@@ -21,7 +21,7 @@ The long-term goal of the Self-Models project is to transcend traditional data-p
 
 The "brain" of the organism is modularly divided into four specialized components:
 
-* **The Observer (`SelfEncoder`):** Compresses short-term memory (hidden states) into a stable latent representation known as the "self-concept." It utilizes bounded activations (Tanh) to maintain attractor stability $[-1, 1]$.
+* **The Observer (`SelfEncoder`):** Compresses short-term memory (hidden states) into a stable latent representation known as the "self-concept." It utilizes bounded activations (Tanh) to maintain attractor stability.
 * **The Oracle (`SelfPredictor`):** The imagination center. It predicts how the self-concept will change in the next time step using residual connections, preventing the model from "forgetting" its current identity.
 * **The Actor (`ActionDecoder`):** Translates internal latent representations into physical, external actions or predictions (output logits).
 * **The Core (`RecursiveCore`):** The primary memory engine (LSTM-based) that processes both external sensory inputs and internal self-concepts. In autonomous modes, it is also capable of processing "surprise" signals (prediction errors).
@@ -29,7 +29,6 @@ The "brain" of the organism is modularly divided into four specialized component
 ## Training Mechanism: Dual Loss (Free Energy)
 
 The organism is trained by minimizing a proxy for Total Free Energy, utilizing a Dual Loss mechanism:
-$$Loss_{total} = \text{MSE}_{task} + \lambda \cdot \text{MSE}_{dream}$$
 
 * **Task Loss:** The error in interacting with or predicting the external physical world.
 * **Dream / Self-Modeling Loss:** The internal error calculated by comparing the Oracle's prediction of the self with the Observer's actual perception of the self in the future.

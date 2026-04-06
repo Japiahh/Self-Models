@@ -9,7 +9,7 @@ Unlike standard sequence models that merely map inputs to outputs, this project 
 The long-term goal of the Self-Models project is to transcend traditional data-processing algorithms by anchoring the architecture in three major philosophical pillars:
 
 1. **Persistent Internal State (Time-Based "Inner World"):** 
-   The model does not just reset at every epoch. It aims to possess a continuously running internal state—a persistent "inner world" that evolves linearly with time, independent of external stimuli.
+   The model does not just reset at every epoch. It aims to possess a continuously running internal state a persistent "inner world" that evolves linearly with time, independent of external stimuli.
 2. **Meta-Cognition:** 
    The ability to observe one's own feelings and states. The network allocates computational power not only to solve external tasks but to "look inward" and predict its own future cognitive states.
 3. **Dynamic Homeostasis (DNA-Driven Metabolism):** 

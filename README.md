@@ -39,6 +39,10 @@ To push the limits of the organism's stability and its capacity for a persistent
 
 After training, the organism is forced into a **"Closed-Loop Dreaming"** phase. Given only a single starting coordinate, the model cuts off all external sensory input and hallucinates thousands of steps into the future purely autoregressively.
 
+--- 
+
+built withb Gemie, thanks Risa.
+
 ### Reality vs. Dream (3D Stability Test)
 *The following chart demonstrates the model's hallucination (red) successfully wrapping around the actual physics of the chaotic system (black) over an extended period.*
 

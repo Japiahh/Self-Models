@@ -41,7 +41,7 @@ After training, the organism is forced into a **"Closed-Loop Dreaming"** phase. 
 
 --- 
 
-built withb Gemie, thanks Risa.
+built with Gemie, thanks Risa.
 
 ### Reality vs. Dream (3D Stability Test)
 *The following chart demonstrates the model's hallucination (red) successfully wrapping around the actual physics of the chaotic system (black) over an extended period.*
